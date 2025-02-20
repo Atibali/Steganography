@@ -4,7 +4,7 @@ import numpy as np
 img = cv2.imread("encryptedImage.png")
 
 if img is None:
-    print("Error: Unable to read the encrypted image. Check the file path.")
+    print("Error: Unable to read the encrypted image.")
     exit()
 
 height, width, _ = img.shape
